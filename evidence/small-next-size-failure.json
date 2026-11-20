@@ -1,0 +1,62 @@
+{
+  "P": 512,
+  "n": 4096,
+  "k": 1088,
+  "lower": 4,
+  "upper": 4,
+  "exact_distance": 4,
+  "physical_code_sha256": "807dab47eae59f6609afbbf7768c6c1c8e0c3a63ae951eeb276a2f325755c490",
+  "search_code_sha256": "52a403fa309e58db50437a3f21add748726ea380d0eff443edcbdc43b15099fc",
+  "verified_translation_period": 8,
+  "girth": {
+    "X": 4,
+    "Z": 4
+  },
+  "physical_checks": {
+    "P": 512,
+    "n": 4096,
+    "k": 1088,
+    "ranks": [
+      1504,
+      1504
+    ],
+    "CSS": true,
+    "row_weight": 8,
+    "column_weight": 3,
+    "both_kernels_even": true,
+    "PP_relative_map_identities": true,
+    "witnesses": {
+      "X": {
+        "weight": 4,
+        "support": [
+          816,
+          2874,
+          3060,
+          3190
+        ],
+        "syndrome_zero": true,
+        "outside_stabilizer": true
+      },
+      "Z": {
+        "weight": 4,
+        "support": [
+          1402,
+          2612,
+          2742,
+          3440
+        ],
+        "syndrome_zero": true,
+        "outside_stabilizer": true
+      }
+    }
+  },
+  "evidence": [
+    {
+      "sha256": "dfa5fddb17e4d29075bb23a94326d88cb51580ed6d0c9074cdf0766f37f57b77",
+      "lower": 4,
+      "upper": 4,
+      "complete_both_sector_exclusion": true
+    }
+  ],
+  "evidence_kind": "Independently audited complete upstream executions; not per-node formal proof traces."
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "n": 1270,
+  "k": 260,
+  "lower": 32,
+  "upper": 70,
+  "records_audited": 22000,
+  "code_sha256": "20d438ee2fdfb8fc0090adeaaba5321657386fae4f96ee54f08690451d3f3d79",
+  "certificate_sha256": "a9182ecadff89c72e6ce374aa7448d5e2ab70576740d094ea9e83993435bcfa8",
+  "checked_at": 1795144085.333672,
+  "physical_exchange_and_even_kernels": true,
+  "physical_upper70_verified": true
+}

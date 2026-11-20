@@ -1,0 +1,67 @@
+[
+  {
+    "P": 16,
+    "n": 128,
+    "k": 36,
+    "d": 6,
+    "girth": {
+      "X": 4,
+      "Z": 4
+    },
+    "final_document_sha256": "5312f9ad3ce844c714ae81f7226c8ed9159a8fb8094bf8c314dddd23e1e09ded",
+    "reused_document_sha256": "f8524ad602fe27cdefb274339d1b35c0a52a91b8733b0c71866d34370716ba90",
+    "physical_matrices_exactly_identical": true
+  },
+  {
+    "P": 32,
+    "n": 256,
+    "k": 68,
+    "d": 12,
+    "girth": {
+      "X": 6,
+      "Z": 6
+    },
+    "final_document_sha256": "efe3eb0f8fc1a870fefccaa1fa68bd498ee7e08074f8fb90e8d4b0c9114f5d0a",
+    "reused_document_sha256": "635f01022c1ddf96694b66ee1b0e93e36841e1477135eaa369fb94e93f4c1480",
+    "physical_matrices_exactly_identical": true
+  },
+  {
+    "P": 64,
+    "n": 512,
+    "k": 132,
+    "d": 16,
+    "girth": {
+      "X": 6,
+      "Z": 6
+    },
+    "final_document_sha256": "91f76f51b6f689fcb3c4941db67fe581048a75cb57f911779789887f192dde78",
+    "reused_document_sha256": "98250b6cd7ccc7ee3f93872c61b254e115d81ee745e247452138121ffcd64d34",
+    "physical_matrices_exactly_identical": true
+  },
+  {
+    "P": 128,
+    "n": 1024,
+    "k": 260,
+    "d": 18,
+    "girth": {
+      "X": 8,
+      "Z": 8
+    },
+    "final_document_sha256": "4a70ca1ea1ad072de670c720b524701cf4f216d16bcdb875a47f14c0b2a1bf5c",
+    "reused_document_sha256": "d3a5091ed3f5b03e8e3d132e8598bac5ba37db6325f8bef71c2744d67a591d83",
+    "physical_matrices_exactly_identical": true
+  },
+  {
+    "P": 256,
+    "n": 2048,
+    "k": 516,
+    "d": 20,
+    "girth": {
+      "X": 8,
+      "Z": 8
+    },
+    "final_document_sha256": "434d8b8a16f3a22054860383ec17639a2f1e6e2e8bee820b553ef60ec54255f8",
+    "reused_document_sha256": "96cc2af20aa88e6d32bfca9cad9bdbd1056ee7ae0cb7369fef6131fcad08bd4d",
+    "physical_matrices_exactly_identical": true
+  }
+]

@@ -1,0 +1,152 @@
+{
+ "schema_version": 1,
+ "lift": "APM (affine permutation matrices)",
+ "base_matrix": "all-one 3x8 on both CSS sides",
+ "family_count": 3,
+ "r": 8,
+ "m": 192,
+ "n": 1536,
+ "k": 388,
+ "slopes": {
+  "group": "Gamma(m/2) = {1, 97}",
+  "L": 96,
+  "gstep": 2,
+  "note": "minimal twist: 1+m/2 acts as u -> u + (m/2)*(u mod 2)"
+ },
+ "aX": [
+  [
+   97,
+   97,
+   97,
+   97,
+   97,
+   97,
+   97,
+   97
+  ],
+  [
+   1,
+   97,
+   97,
+   1,
+   1,
+   1,
+   97,
+   97
+  ],
+  [
+   97,
+   1,
+   1,
+   1,
+   1,
+   97,
+   97,
+   97
+  ]
+ ],
+ "bX": [
+  [
+   126,
+   43,
+   188,
+   169,
+   17,
+   170,
+   88,
+   143
+  ],
+  [
+   67,
+   97,
+   84,
+   173,
+   5,
+   37,
+   31,
+   142
+  ],
+  [
+   88,
+   80,
+   50,
+   113,
+   176,
+   69,
+   51,
+   33
+  ]
+ ],
+ "gZ": [
+  [
+   1,
+   97,
+   97,
+   1,
+   1,
+   1,
+   97,
+   97
+  ],
+  [
+   97,
+   97,
+   97,
+   97,
+   97,
+   97,
+   97,
+   97
+  ],
+  [
+   1,
+   97,
+   97,
+   97,
+   97,
+   1,
+   1,
+   1
+  ]
+ ],
+ "dZ": [
+  [
+   115,
+   90,
+   77,
+   78,
+   102,
+   175,
+   169,
+   190
+  ],
+  [
+   28,
+   120,
+   90,
+   191,
+   158,
+   55,
+   37,
+   165
+  ],
+  [
+   24,
+   88,
+   41,
+   72,
+   112,
+   28,
+   138,
+   137
+  ]
+ ],
+ "girth8": true,
+ "kill": true,
+ "distance": {
+  "claim": "d >= 26",
+  "method": "exhaustive weight-24 search on both sides over all 16 translation roots, plus the even-weight lemma",
+  "see": "detail/certificate_W24_X.json, detail/certificate_W24_Z.json"
+ },
+ "cycle_length_convention": "Tanner cycle lengths are used throughout."
+}

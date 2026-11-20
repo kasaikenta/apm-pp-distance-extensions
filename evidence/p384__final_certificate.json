@@ -1,0 +1,120 @@
+{
+  "status": "exact",
+  "certified_at": "2026-11-20T06:19:51.552565+09:00",
+  "P": 384,
+  "n": 3072,
+  "k": 772,
+  "distance": 32,
+  "code_fingerprint_sha256": "0af7a86025102d2c814573738c2a40f2ac2bffa21faa9c7188f36898bda7e746",
+  "audit_file": "epoch-10-audit.json",
+  "audit_sha256": "f2abf57b377da74d62fb9b1c0806e578a20fd92d3b306fc728e2767de32625b1",
+  "receipt_count": 286445,
+  "lower_bound": {
+    "distance_at_least": 32,
+    "weight30_full_coverage": {
+      "X": {
+        "complete": true,
+        "frontier": [
+          2825409,
+          "5793798748216950724",
+          3396523
+        ],
+        "frontier_owned": 2825409,
+        "leaves": 106838,
+        "missing": 0
+      },
+      "Z": {
+        "complete": true,
+        "frontier": [
+          2786478,
+          "4241982208749886103",
+          3349958
+        ],
+        "frontier_owned": 2786478,
+        "leaves": 103310,
+        "missing": 0
+      }
+    },
+    "both_kernels_even_verified": true
+  },
+  "upper_bound": {
+    "side": "Z",
+    "weight": 32,
+    "support": [
+      16,
+      325,
+      391,
+      474,
+      504,
+      598,
+      754,
+      863,
+      899,
+      977,
+      1086,
+      1195,
+      1252,
+      1273,
+      1389,
+      1532,
+      1552,
+      1861,
+      1927,
+      2010,
+      2040,
+      2134,
+      2290,
+      2399,
+      2435,
+      2513,
+      2622,
+      2731,
+      2788,
+      2809,
+      2925,
+      3068
+    ],
+    "syndrome_weight": 0,
+    "outside_stabilizer_span": true,
+    "physical_index": "zero-based qubit=8*u+l",
+    "paired_halves": {
+      "offset": 1536,
+      "base_support": [
+        16,
+        325,
+        391,
+        474,
+        504,
+        598,
+        754,
+        863,
+        899,
+        977,
+        1086,
+        1195,
+        1252,
+        1273,
+        1389,
+        1532
+      ]
+    }
+  },
+  "witness_provenance": {
+    "worker": "9474209.9",
+    "stage": 3201,
+    "side": "Z",
+    "shard": 15979,
+    "archive_record": 526,
+    "receipt_sha256": "38488854059c43e7d68ed36aa807017889c3eabe5751925cbcdbfaf3d808d1c6",
+    "upstream_native_commit": "aeb7006147b777c121fd3ab8c6841da99238a84e"
+  },
+  "physical_verification_file": "physical_verification.json",
+  "physical_verification_sha256": "e32b8931b31fc748b28056d985b9605b6f2b880c594f431cb9e2ec7e8c771512",
+  "raw_code_file_sha256": "0af7a86025102d2c814573738c2a40f2ac2bffa21faa9c7188f36898bda7e746",
+  "target_file_sha256": "1546bae0b43d62d2ae20d46207c1d80de81edfa73371ec6558fde90324e38495",
+  "target_jobs_remaining": 0,
+  "heartbeat_id": "apm-pp",
+  "heartbeat_status": "PAUSED",
+  "accounting_complete": true,
+  "future_pending_partitions_need_not_be_searched": true
+}

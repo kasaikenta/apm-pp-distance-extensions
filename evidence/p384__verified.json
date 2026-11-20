@@ -1,0 +1,316 @@
+{
+  "P": 384,
+  "attempts": 286445,
+  "code_sha256": "0af7a86025102d2c814573738c2a40f2ac2bffa21faa9c7188f36898bda7e746",
+  "coverage": {
+    "24": {
+      "X": {
+        "complete": true,
+        "frontier": [
+          80789,
+          "14502561634412124339",
+          98119
+        ],
+        "frontier_owned": 80789,
+        "leaves": 2063,
+        "missing": 0
+      },
+      "Z": {
+        "complete": true,
+        "frontier": [
+          79762,
+          "2334112571779387191",
+          96919
+        ],
+        "frontier_owned": 79762,
+        "leaves": 2048,
+        "missing": 0
+      }
+    },
+    "26": {
+      "X": {
+        "complete": true,
+        "frontier": [
+          80789,
+          "14502561634412124339",
+          98119
+        ],
+        "frontier_owned": 80789,
+        "leaves": 8192,
+        "missing": 0
+      },
+      "Z": {
+        "complete": true,
+        "frontier": [
+          79762,
+          "2334112571779387191",
+          96919
+        ],
+        "frontier_owned": 79762,
+        "leaves": 8192,
+        "missing": 0
+      }
+    },
+    "28": {
+      "X": {
+        "complete": true,
+        "frontier": [
+          2825409,
+          "5793798748216950724",
+          3396523
+        ],
+        "frontier_owned": 2825409,
+        "leaves": 8192,
+        "missing": 0
+      },
+      "Z": {
+        "complete": true,
+        "frontier": [
+          2786478,
+          "4241982208749886103",
+          3349958
+        ],
+        "frontier_owned": 2786478,
+        "leaves": 8192,
+        "missing": 0
+      }
+    },
+    "30": {
+      "X": {
+        "complete": true,
+        "frontier": [
+          2825409,
+          "5793798748216950724",
+          3396523
+        ],
+        "frontier_owned": 2825409,
+        "leaves": 106838,
+        "missing": 0
+      },
+      "Z": {
+        "complete": true,
+        "frontier": [
+          2786478,
+          "4241982208749886103",
+          3349958
+        ],
+        "frontier_owned": 2786478,
+        "leaves": 103310,
+        "missing": 0
+      }
+    },
+    "32": {
+      "X": {
+        "complete": false,
+        "frontier": [
+          2825409,
+          "5793798748216950724",
+          3396523
+        ],
+        "frontier_owned": 163646,
+        "leaves": 171992,
+        "missing": 163633
+      },
+      "Z": {
+        "complete": false,
+        "frontier": [
+          2786478,
+          "4241982208749886103",
+          3349958
+        ],
+        "frontier_owned": 179257,
+        "leaves": 167897,
+        "missing": 158720
+      }
+    },
+    "34": {
+      "X": {
+        "complete": false,
+        "frontier": null,
+        "frontier_owned": 0,
+        "leaves": 32768,
+        "missing": 32768
+      },
+      "Z": {
+        "complete": false,
+        "frontier": null,
+        "frontier_owned": 0,
+        "leaves": 32768,
+        "missing": 32768
+      }
+    },
+    "36": {
+      "X": {
+        "complete": false,
+        "frontier": null,
+        "frontier_owned": 0,
+        "leaves": 32768,
+        "missing": 32768
+      },
+      "Z": {
+        "complete": false,
+        "frontier": null,
+        "frontier_owned": 0,
+        "leaves": 32768,
+        "missing": 32768
+      }
+    },
+    "38": {
+      "X": {
+        "complete": false,
+        "frontier": null,
+        "frontier_owned": 0,
+        "leaves": 32768,
+        "missing": 32768
+      },
+      "Z": {
+        "complete": false,
+        "frontier": null,
+        "frontier_owned": 0,
+        "leaves": 32768,
+        "missing": 32768
+      }
+    }
+  },
+  "exact": 32,
+  "finished": 1795123087.7711182,
+  "k": 772,
+  "lower": 32,
+  "method": "Unmodified upstream check_receipt, physical inputs, native identities, full nested residue tree and frontier union; fresh weight24 baseline included",
+  "n": 3072,
+  "queue_scope_sha256": "5e560bdf782b5bd2f454a2309ce1123e5d8ab28ad77210d81263e48a0084eba7",
+  "queue_status_counts": {
+    "excluded": 264563,
+    "pending": 518960,
+    "split": 106432,
+    "witness": 1
+  },
+  "threshold_met": true,
+  "threshold_rejected": false,
+  "upper": 32,
+  "wall_seconds": 345.55290603637695,
+  "witnesses": {
+    "X": {
+      "support": [
+        12,
+        20,
+        36,
+        44,
+        60,
+        68,
+        84,
+        92,
+        101,
+        125,
+        149,
+        173,
+        196,
+        214,
+        220,
+        238,
+        244,
+        262,
+        268,
+        286,
+        301,
+        325,
+        349,
+        373,
+        787,
+        811,
+        835,
+        859,
+        866,
+        868,
+        890,
+        892,
+        914,
+        916,
+        938,
+        940,
+        963,
+        987,
+        1011,
+        1035,
+        1643,
+        1667,
+        1691,
+        1715,
+        1738,
+        1740,
+        1762,
+        1764,
+        1786,
+        1788,
+        1810,
+        1812,
+        1843,
+        1867,
+        1891,
+        1915,
+        2310,
+        2316,
+        2334,
+        2340,
+        2358,
+        2364,
+        2382,
+        2388,
+        2405,
+        2429,
+        2453,
+        2477,
+        2510,
+        2518,
+        2534,
+        2542,
+        2558,
+        2566,
+        2582,
+        2590,
+        2612,
+        2636,
+        2660,
+        2684
+      ],
+      "weight": 80
+    },
+    "Z": {
+      "support": [
+        192,
+        240,
+        303,
+        351,
+        606,
+        654,
+        711,
+        759,
+        983,
+        1031,
+        1070,
+        1118,
+        1180,
+        1228,
+        1285,
+        1333,
+        1575,
+        1623,
+        1871,
+        1919,
+        1930,
+        1978,
+        2059,
+        2107,
+        2514,
+        2562,
+        2625,
+        2673,
+        2700,
+        2748,
+        3002,
+        3050
+      ],
+      "weight": 32
+    }
+  }
+}
