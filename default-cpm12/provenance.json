@@ -6,10 +6,22 @@
   "sizes": [
     23,
     37,
+    43,
+    47,
     53
   ],
   "coordinate_convention": "q=l*P+u; row=i*P+(a*u+b)%P; X block rows first, then Z",
   "selection": "Extract once at P23; default rule unchanged; no descendant screening or parameter reselection",
   "distance_verification": "Independent full QEDist receipt audits and original-coordinate witness checks. This compact bundle contains audit summaries, not full native receipt archives.",
-  "upstream_commit": "aeb7006147b777c121fd3ab8c6841da99238a84e"
+  "upstream_commit": "aeb7006147b777c121fd3ab8c6841da99238a84e",
+  "compact_size_test": {
+    "reference_P": 53,
+    "reference_distance": 20,
+    "requested_P": [
+      43,
+      47
+    ],
+    "all_tested_sizes_reported": true,
+    "outcome": "Neither smaller size retained distance 20. The unchanged fixed rule gives d=16 at P=43 and d=14 at P=47."
+  }
 }

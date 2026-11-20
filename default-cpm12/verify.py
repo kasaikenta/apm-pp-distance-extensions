@@ -48,8 +48,8 @@ assert hashlib.sha256((ROOT / 'general_pp.py').read_bytes()).hexdigest() == froz
 seed_b = [int(x) for line in (ROOT / 'seed276.cpm').read_text().splitlines()[2:] for x in line.split()]
 assert json.loads(json.dumps(g.extract(4, 12, 23, [1] * 96, seed_b))) == frozen['rule']
 audit = read('audit_summary.json')
-assert audit['status'] == 'PASS' and audit['completed'] == audit['expected'] == 3
-assert [(x['P'], x['n'], x['k'], x['d']) for x in audit['results']] == [(23, 276, 98, 14), (37, 444, 154, 16), (53, 636, 218, 20)]
+assert audit['status'] == 'PASS' and audit['completed'] == audit['expected'] == 5
+assert [(x['P'], x['n'], x['k'], x['d']) for x in audit['results']] == [(23, 276, 98, 14), (37, 444, 154, 16), (43, 516, 178, 16), (47, 564, 194, 14), (53, 636, 218, 20)]
 for result in audit['results']:
     P = result['P']
     params, code = read(f'P{P}_parameters.json'), read(f'P{P}.json')

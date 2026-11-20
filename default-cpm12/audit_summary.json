@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checked_at": 1795178322.475051,
+  "checked_at": 1795180020.624717,
   "results": [
     {
       "family": "CPM",
@@ -321,6 +321,256 @@
       "host": "home-pro"
     },
     {
+      "P": 43,
+      "check_weight": 12,
+      "code_sha256": "5c27bf9a33132f30511ca23ac401fd79b37843d86ee095b891a7626ac308a0db",
+      "column_weight": 4,
+      "d": 16,
+      "girth": [
+        6,
+        6
+      ],
+      "k": 178,
+      "meets_distance20": false,
+      "n": 516,
+      "physical_witnesses": [
+        {
+          "side": "X",
+          "support": [
+            0,
+            82,
+            103,
+            112,
+            162,
+            171,
+            177,
+            249,
+            268,
+            285,
+            293,
+            311,
+            448,
+            477,
+            485,
+            503
+          ],
+          "weight": 16
+        },
+        {
+          "side": "Z",
+          "support": [
+            0,
+            102,
+            120,
+            128,
+            136,
+            144,
+            161,
+            249,
+            258,
+            267,
+            311,
+            352,
+            409,
+            448,
+            493,
+            502
+          ],
+          "weight": 16
+        }
+      ],
+      "ranks": [
+        169,
+        169
+      ],
+      "receipts_audited": 576,
+      "stages": [
+        {
+          "all_excluded": true,
+          "cutoff": 1
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 2
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 3
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 4
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 5
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 6
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 7
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 8
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 9
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 10
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 11
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 12
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 13
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 14
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 15
+        },
+        {
+          "all_excluded": false,
+          "cutoff": 16
+        }
+      ]
+    },
+    {
+      "P": 47,
+      "check_weight": 12,
+      "code_sha256": "fe7f0c7491d64d27043a4e7af1073ad77616a0a705f234b6d115846d58603a56",
+      "column_weight": 4,
+      "d": 14,
+      "girth": [
+        6,
+        6
+      ],
+      "k": 194,
+      "meets_distance20": false,
+      "n": 564,
+      "physical_witnesses": [
+        {
+          "side": "X",
+          "support": [
+            0,
+            10,
+            53,
+            132,
+            148,
+            203,
+            236,
+            273,
+            340,
+            369,
+            404,
+            465,
+            471,
+            489
+          ],
+          "weight": 14
+        },
+        {
+          "side": "Z",
+          "support": [
+            0,
+            29,
+            53,
+            203,
+            255,
+            273,
+            304,
+            359,
+            369,
+            404,
+            465,
+            471,
+            508,
+            559
+          ],
+          "weight": 14
+        }
+      ],
+      "ranks": [
+        185,
+        185
+      ],
+      "receipts_audited": 504,
+      "stages": [
+        {
+          "all_excluded": true,
+          "cutoff": 1
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 2
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 3
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 4
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 5
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 6
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 7
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 8
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 9
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 10
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 11
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 12
+        },
+        {
+          "all_excluded": true,
+          "cutoff": 13
+        },
+        {
+          "all_excluded": false,
+          "cutoff": 14
+        }
+      ]
+    },
+    {
       "family": "CPM",
       "P": 53,
       "n": 636,
@@ -549,7 +799,25 @@
       "host": "home-mini"
     }
   ],
-  "completed": 3,
-  "expected": 3,
-  "scope": "Exact distance from full required-shard execution audits and independently checked physical logical witnesses; not a formal per-node proof trace."
+  "completed": 5,
+  "expected": 5,
+  "scope": "Exact distance from full required-shard execution audits and independently checked physical logical witnesses; not a formal per-node proof trace.",
+  "audit_batches": [
+    {
+      "P": [
+        23,
+        37,
+        53
+      ],
+      "checked_at": 1795178322.475051
+    },
+    {
+      "P": [
+        43,
+        47
+      ],
+      "checked_at": 1795180020.624717,
+      "frozen_rule_sha256": "ab6dc91e0daee9f57234a52e3ba6dc6c47cf0aa6c8c547011666a2a41a881b4b"
+    }
+  ]
 }

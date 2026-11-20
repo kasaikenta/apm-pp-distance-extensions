@@ -2,7 +2,7 @@
 
 Concrete code data accompanying Kenta Kasai's research draft
 *Increasing Quantum LDPC Code Distance through Explicit Extensions*.
-The original v1.0.0 data remain unchanged. The current revision adds three
+The original v1.0.0 data remain unchanged. The current revision includes five
 default-rule CPM–PP examples; cite the specific commit used.
 
 ## Included codes
@@ -32,7 +32,12 @@ this release, and its distance must not be cited as exactly 32.
 |---:|---:|---:|---:|---:|---:|
 | 23 | 276 | 98 | 14 | 4 | 12 |
 | 37 | 444 | 154 | 16 | 4 | 12 |
+| 43 | 516 | 178 | 16 | 4 | 12 |
+| 47 | 564 | 194 | 14 | 4 | 12 |
 | 53 | 636 | 218 | 20 | 4 | 12 |
+
+The P43 and P47 cases test shorter lengths against the distance 20 P53 reference.
+Neither retains distance 20; both results are included without reselection.
 
 See [the self-contained data and verifier](default-cpm12/README.md). The original
 seed is the P23 example of [Design Principles, Table 8](https://arxiv.org/html/2609.30069v1#A9.T8).
