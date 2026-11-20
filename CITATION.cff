@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "Please cite this dataset and the specific commit used; cite the original construction papers as described in README.md."
 type: dataset
-title: "Distance-Guided Extensions of APM–PP Quantum LDPC Codes: Code Data"
+title: "Increasing Quantum LDPC Code Distance through Explicit Extensions: Code Data"
 authors:
   - family-names: Kasai
     given-names: Kenta
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-11-20
 repository-code: "https://github.com/kasaikenta/apm-pp-distance-extensions"
 url: "https://github.com/kasaikenta/apm-pp-distance-extensions"
-abstract: "Fixed construction parameters, explicit sparse CSS check matrices, logical witnesses, and reconstruction checks for nine APM–PP and CPM–PP instances. The public minimal-twist seed is attributed to Koki Okada. Lower-bound audits are summarized; complete native search archives are not bundled."
+abstract: "Fixed construction parameters, explicit sparse CSS check matrices, logical witnesses, and reconstruction checks for twelve APM–PP and CPM–PP instances, including three unchanged-default-rule CPM extensions. The public minimal-twist seed is attributed to Koki Okada. Lower-bound audits are summarized; complete native search archives are not bundled."

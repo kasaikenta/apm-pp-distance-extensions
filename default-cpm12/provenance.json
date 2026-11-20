@@ -1,0 +1,15 @@
+{
+  "seed_source": "https://kasai.ict.eng.isct.ac.jp/pair_partition_cpm_css_codes_data/cpm/qc_276_98_14_randomized_equivalent.cpm",
+  "seed_paper": "https://arxiv.org/html/2609.30069v1#A9.T8",
+  "J": 4,
+  "L": 12,
+  "sizes": [
+    23,
+    37,
+    53
+  ],
+  "coordinate_convention": "q=l*P+u; row=i*P+(a*u+b)%P; X block rows first, then Z",
+  "selection": "Extract once at P23; default rule unchanged; no descendant screening or parameter reselection",
+  "distance_verification": "Independent full QEDist receipt audits and original-coordinate witness checks. This compact bundle contains audit summaries, not full native receipt archives.",
+  "upstream_commit": "aeb7006147b777c121fd3ab8c6841da99238a84e"
+}

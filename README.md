@@ -1,8 +1,9 @@
-# Distance-Guided Extensions of APM–PP Quantum LDPC Codes: data
+# Increasing Quantum LDPC Code Distance through Explicit Extensions: data
 
 Concrete code data accompanying Kenta Kasai's research draft
-*Distance-Guided Extensions of APM–PP Quantum LDPC Codes*.
-This release freezes the results available on 20 November 2026.
+*Increasing Quantum LDPC Code Distance through Explicit Extensions*.
+The original v1.0.0 data remain unchanged. The current revision adds three
+default-rule CPM–PP examples; cite the specific commit used.
 
 ## Included codes
 
@@ -24,6 +25,21 @@ distance-guided selection of integer representatives preserving preceding
 matrices. Its next-size failure is included: monotonic distance growth is not
 a theorem. The P127 interval is frozen; ongoing computations do not change
 this release, and its distance must not be cited as exactly 32.
+
+## Additional default-rule CPM series
+
+| P | n | k | Exact distance | Column weight | Check weight |
+|---:|---:|---:|---:|---:|---:|
+| 23 | 276 | 98 | 14 | 4 | 12 |
+| 37 | 444 | 154 | 16 | 4 | 12 |
+| 53 | 636 | 218 | 20 | 4 | 12 |
+
+See [the self-contained data and verifier](default-cpm12/README.md). The original
+seed is the P23 example of [Design Principles, Table 8](https://arxiv.org/html/2609.30069v1#A9.T8).
+Run `python3 default-cpm12/verify.py` in addition to the original verifier below.
+The unchanged general algorithm fixes parameters at the seed and performs no
+candidate screening at the extension sizes. The original nine instances below
+and their frozen tag are preserved; not every archived instance is in the paper.
 
 ## Files and coordinates
 
@@ -82,7 +98,7 @@ Repository: https://github.com/kasaikenta/apm-pp-distance-extensions
 
 ## 日本語
 
-論文に掲載する9個の符号について、検査行列・構成パラメータ・論理演算子を公開します。
+当初収録した9個の符号について、検査行列・構成パラメータ・論理演算子を公開します。
 主例は [[1536,388,26]] → [[3072,772,32]] で、チェック重み8・各側列重み3を維持します。
 CPM例 [[1270,260,d]] は32≤d≤70の区間であり、距離32が確定した符号ではありません。
 再構成スクリプトは物理行列、階数、直交性、重み、上界論理を検証します。
