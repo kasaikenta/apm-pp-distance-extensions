@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-11-21T05:17:00.764241+00:00",
+  "exact_instances": 15,
+  "searches_started": 0,
+  "records_audited": 298094,
+  "cases": [
+    {
+      "id": "cpm12-P23",
+      "d": 14,
+      "receipts": 322,
+      "status": "PASS"
+    },
+    {
+      "id": "cpm12-P37",
+      "d": 16,
+      "receipts": 370,
+      "status": "PASS"
+    },
+    {
+      "id": "cpm12-P53",
+      "d": 20,
+      "receipts": 466,
+      "status": "PASS"
+    },
+    {
+      "id": "cpm12-P43",
+      "d": 16,
+      "receipts": 576,
+      "status": "PASS"
+    },
+    {
+      "id": "cpm12-P47",
+      "d": 14,
+      "receipts": 504,
+      "status": "PASS"
+    },
+    {
+      "id": "power9-P16",
+      "d": 6,
+      "receipts": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "power9-P32",
+      "d": 12,
+      "receipts": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "power9-P64",
+      "d": 16,
+      "receipts": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "power9-P128",
+      "d": 18,
+      "receipts": 6,
+      "status": "PASS"
+    },
+    {
+      "id": "power9-P256",
+      "d": 20,
+      "receipts": 6,
+      "status": "PASS"
+    },
+    {
+      "id": "power9-P512",
+      "d": 4,
+      "receipts": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "cpm10-P37",
+      "d": 22,
+      "receipts": 5005,
+      "status": "PASS",
+      "scope": "Archived PP-verifier certificates, coverage, physical parity, side exchange and seed equivalence; no per-node proof trace"
+    },
+    {
+      "id": "cpm10-P73",
+      "d": 24,
+      "receipts": 2955,
+      "status": "PASS"
+    },
+    {
+      "id": "p192",
+      "d": 26,
+      "status": "PASS",
+      "receipts": 1431
+    },
+    {
+      "id": "p384",
+      "d": 32,
+      "status": "PASS",
+      "receipts": 286445
+    }
+  ],
+  "archive_files_verified": 14219,
+  "auditor_sha256": "b1823ebdd226212a86eb68a217352ea38c9252238876256c5802d6ba495c0d27",
+  "scope": "Fresh receipt, partition coverage, identity and physical-witness audits; not a new exhaustive enumeration or per-node formal proof. P37 legacy certificates have no source/executable binding."
+}

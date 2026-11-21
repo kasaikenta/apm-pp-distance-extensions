@@ -1,4 +1,6 @@
 {
+  "cpm10/P37.json": "3139f0cbafa2de20d08c5bb08cf56209d3bef9232d34cfac4ca5cf163d25826a",
+  "cpm10/P73.json": "3d0822fd26d0310bb0174675177ce5eac87462a7a77f4b69e200a0c0ad96f920",
   "data/codes/apm-P192.json": "e0051c8e505ae71d292a4a504d2fca661272e238d6286840f2db163f6f05e5bb",
   "data/codes/apm-P384.json": "e45f2d309866dfaa0f6bf9e7a519efe152127f1084eb6deead3130bd7340ad6b",
   "data/codes/cpm-P127.json": "a0b3657138b9619e3e2927d9b449b61fc0f0a28872a9c3e2f4f289ea4be62580",
@@ -22,6 +24,13 @@
   "evidence/p384__verified.json": "f2abf57b377da74d62fb9b1c0806e578a20fd92d3b306fc728e2767de32625b1",
   "evidence/small-next-size-failure.json": "49db4cba64af8027c9e6ff49b9977d6f189f22fe98f51eba1abc19def18a9c58",
   "evidence/small-series-summary.json": "90e6d017d4a9d5b86a5180a3bb38e51ab8f25a96947c83af508bdff4403f7a69",
+  "exact-distance/README.md": "33c2e80c7dd48f2846e8d3fd0288020652606377af0178d44855aa32f0bfe29b",
+  "exact-distance/assets.json": "54f838b13c72c9773315123c03e31b33110f41344914d0ca491e965efc53c67e",
+  "exact-distance/audit-report.json": "9bbcd1078354bf71aba8996f5101bcddde35b0b0e07aab9820f8f3f034867fca",
+  "exact-distance/audit_release.py": "b1823ebdd226212a86eb68a217352ea38c9252238876256c5802d6ba495c0d27",
+  "exact-distance/files.json": "5d8177917da1c7b907c995564408aaa4e18bfa232a786a441b52a8f0bc478aed",
+  "exact-distance/index.json": "f9bc4dcedde7beb2f1df869d2b8ed2a0b4a7ca3f5587d5cdf30be82cd50e2b8e",
+  "exact-distance/verify.py": "465eb70567ef537e99b9dbf0a32e341b14b56f5f901067bec4b731de193b34b5",
   "scripts/verify.py": "a982f01c1a13f4763cac094d21f9ff6c0d6beb23a3ae09088cb4ebeef70664c5",
   "scripts/zsnf.py": "c340546b87f403064f8c77036c2c48178da0d96b69ca1f852f71c99bbe41ebfa"
 }

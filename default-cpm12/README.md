@@ -18,7 +18,8 @@ logical operators. All indices are zero-based; q=lP+u.
 
 The exact distances additionally rely on independent audits of the complete
 both-sector QEDist exclusions through weight d-1 for every listed exact distance d.
-The compact audit summary is included; full native search records are archived separately.
+The compact audit summary is included; full native search records are now published in the v1.3.0 release assets
+(see [the evidence instructions](../exact-distance/README.md)).
 This script checks the summary's consistency, not the underlying search again.
 The original sizes P=23,37,53 demonstrate distance improvement. The additional
 P=43,47 results explicitly show that distance is not monotone in P under this

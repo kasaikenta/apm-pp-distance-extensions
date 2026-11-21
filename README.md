@@ -5,6 +5,15 @@ Concrete code data accompanying Kenta Kasai's research draft
 The original v1.0.0 data remain unchanged. The current revision includes five
 default-rule CPM–PP examples; cite the specific commit used.
 
+## Complete exact-distance evidence
+
+Release v1.3.0 adds the archived lower-bound search records and physical upper
+witnesses for **15 exact distances**, with an auditable claim-to-matrix index.
+See [the evidence table and verification instructions](exact-distance/README.md)
+and [download the raw archives](https://github.com/kasaikenta/apm-pp-distance-extensions/releases/tag/v1.3.0).
+It also adds the fixed-rule CPM (4,10) P37 and P73 matrices with exact distances
+22 and 24. Historical data files and release tags retain their original content.
+
 ## Included codes
 
 | Family | P | n | k | Distance | Check weight | Column weight per CSS sector |
@@ -79,10 +88,11 @@ zero syndrome and stabilizer nonmembership of the supplied logical operators.
 
 Exact distance and lower-bound claims also depend on the previously completed
 exhaustive exclusion audits. The short script does **not** rerun those searches.
-The compact repository includes audit summaries, not the complete native
-receipt archives or a per-node formal proof trace. Matrix reconstruction and
-upper witnesses are independently reproducible from this repository alone;
-full lower-bound replay requires the underlying exhaustive-search archives.
+The Git tree includes compact summaries. The complete archived search records
+for the exact-distance cases are available as release assets, with receipt and
+coverage auditors in [exact-distance/](exact-distance/README.md). These execution
+records are not a formal per-node proof trace; independently rerunning the
+exclusions requires the supplied search inputs and implementation.
 
 ## Attribution and citation
 
@@ -96,7 +106,9 @@ The general APM–PP cancellation condition is prior work: Okada and Kasai,
 The CPM template derives from the P37 [[370,80,22]] example in
 [Design Principles, Table 8](https://arxiv.org/abs/2609.30069v1).
 Distance searches used [Jong Yeon Lee's QEDist](https://github.com/yeon-lee/QEDist)
-at commit `aeb7006147b777c121fd3ab8c6841da99238a84e`; its search engine is not bundled here.
+at commit `aeb7006147b777c121fd3ab8c6841da99238a84e`; the matching engine and its
+license are included in the evidence assets. The earlier CPM P37 certificates
+come from the original PP verifier, as documented in the evidence index.
 
 Use `CITATION.cff` and cite a specific commit when reproducing these data.
 Repository: https://github.com/kasaikenta/apm-pp-distance-extensions

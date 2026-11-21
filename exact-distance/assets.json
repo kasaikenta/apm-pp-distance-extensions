@@ -1,0 +1,26 @@
+[
+  {
+    "name": "common.tar.gz",
+    "sha256": "506eff7d7f05c0de62b143cff06ec1ff2d083955350290b72c1df36089b7f4c7",
+    "bytes": 545367,
+    "files": 115
+  },
+  {
+    "name": "apm-P192.tar.gz",
+    "sha256": "c86527fbe5d097620186d1ef4e78298cfc1b2d0b2d480590c69c5a3a07b062c9",
+    "bytes": 8277924,
+    "files": 326
+  },
+  {
+    "name": "apm-P384.tar.gz",
+    "sha256": "00921930d3b4d367b88656d6a12475f4faf4738cdb2efb0ab0229ecf340e8ffc",
+    "bytes": 328731519,
+    "files": 571
+  },
+  {
+    "name": "other-exact-codes.tar.gz",
+    "sha256": "dab69331e9ea55017d33da986fdbf40034f925e1cab2566893185396504b9da0",
+    "bytes": 6997998,
+    "files": 13207
+  }
+]
