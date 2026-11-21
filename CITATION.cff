@@ -1,4 +1,4 @@
-cff-version: 1.3.0
+cff-version: 1.2.0
 message: "Please cite this dataset and the specific commit used; cite the original construction papers as described in README.md."
 type: dataset
 title: "Increasing Quantum LDPC Code Distance through Explicit Extensions: Code Data"
